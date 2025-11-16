@@ -9,7 +9,9 @@ import threading
 import json
 
 # Target installation directory
-MDK_DIR = r"C:\Users\willi\Downloads\Java\MDKs"
+#MAKE THIS YOUR OWN DIRECTORY OR IT WON'T WORK
+#ignore my directory, that's an example
+MDK_DIR = r"C:\Users\UwU\Downloads"
 
 # Progress tracking file
 PROGRESS_FILE = os.path.join(MDK_DIR, ".download_progress.json")
@@ -251,4 +253,5 @@ def main():
     print("\n🔥 MAXIMUM SPEED ACHIEVED! 🔥")
 
 if __name__ == "__main__":
+
     main()
