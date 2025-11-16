@@ -6,7 +6,7 @@ A Python script that downloads all Minecraft Forge MDK versions automatically.
 
 ## What it does
 
-Downloads Forge MDK files directly from Maven repositories without going through AdFocus redirects. Uses multi-threading to download multiple files at once.
+Downloads Forge MDK files directly from Maven repositories without going through AdFocus redirects. Uses multi-threading to download multiple files at once. Doesn't actually "brute-force" things, just have no idea what else to call it, let me know any good names.
 
 ## Requirements
 
